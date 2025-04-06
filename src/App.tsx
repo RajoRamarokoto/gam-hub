@@ -8,8 +8,6 @@ function App() {
         base: `"nav" "main"`,
         lg: `"nav nav" "aside main"`,
       }}
-      templateColumns={{ base: "1fr", md: "2fr 1fr" }}
-      templateRows={{ base: "1fr 2fr", md: "1fr" }}
     >
       <GridItem area="nav">
         <NavBar />
